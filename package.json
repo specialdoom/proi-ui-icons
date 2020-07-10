@@ -9,17 +9,17 @@
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
-  "keywords": ["svelte",
+  "keywords": [
+    "svelte",
     "ui",
     "sapper ui",
-    "sapper components",
-    "web components",
-    "svelte ui library",
-    "components",
+    "sapper icons",
+    "svelte ui icons",
     "svelte ui",
     "svelte3",
-  "svelte icons",
-  "icons"],
+    "svelte icons",
+    "icons"
+  ],
   "author": "Bogdan Bledea <bledea.bogdan97@gmail.com> (https://proi-ui.com/)",
   "license": "MIT",
   "devDependencies": {
