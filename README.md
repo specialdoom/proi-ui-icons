@@ -19,5 +19,5 @@ import { Icon } from 'proi-ui-icons'
 
 <Icon />
 <Icon type="info" />
-<Icon type="close" color="blue" />
+<Icon type="close" />
 ```

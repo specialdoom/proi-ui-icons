@@ -3,9 +3,6 @@
 
     export let type = 'proiUi';
     export let scale = 20;
-    export let color;
-
-    let clr = color ? color : ;
 </script>
 
 <style>
