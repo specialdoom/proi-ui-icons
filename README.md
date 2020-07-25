@@ -21,3 +21,10 @@ import { Icon } from 'proi-ui-icons'
 <Icon type="info" />
 <Icon type="close" />
 ```
+
+### Attributes
+| Parameter | Description | Type | Optional value | Default value |
+| --- | --- | --- | --- | --- |
+| type | - | String | One of the provided types | proiUi |
+| scale | Squared scale of icon | Integer | - | 20 |
+| color | Color of icon | string | - | #000 |

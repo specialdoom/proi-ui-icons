@@ -1,6 +1,6 @@
 {
   "name": "proi-ui-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "icons for proi-ui",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
