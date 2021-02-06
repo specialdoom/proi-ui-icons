@@ -1,1 +1,1 @@
-export default { name: 'proiUi', paths: };
+export default { name: 'proiUi', paths: ]};
