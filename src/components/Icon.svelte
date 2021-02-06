@@ -2,7 +2,7 @@
     import {icons} from '../icons';
 
     export let type = 'proiUi';
-    export let color;
+    export let color = '#000';
     export let scale = 20;
 </script>
 {#if icons[type]}
@@ -10,10 +10,8 @@
         <title>{icons[type].name}-icon</title>
         <g id="icon-content" data-name="content">
             {#each icons[type].paths as path}
-                <path d="{path}" style="fill:{color ? color : icons[type].color}"/>
+                <path d="{path}" style="fill:{color}"/>
             {/each}
         </g>
     </svg>
-{:else}
-    {(console.error(`incorrect type: ${type}`))}
 {/if}
